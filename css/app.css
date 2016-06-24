@@ -1,7 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 /****************************GENERAL************************************/
 
-
+h2{
+    width: 95%;
+}
+h3{
+    text-align: center;
+}
 p{
     font-size: 25px;
 }
@@ -14,6 +19,7 @@ p{
 body{
     font-family: 'Fjalla One', sans-serif;
     font-size: 16px;
+    color: #5C6B7E;
 }
 
 .up{
@@ -329,15 +335,14 @@ span{
     /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
     margin: 2rem 0;
     background-color: #fff;
-    opacity:0.5;
-}
-.profile-card
-{
     opacity:0.8;
 }
 .profile-card:hover {
     opacity:1;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    /*-webkit-transform: scale(1);*/
+    /*-ms-transform: scale(1);*/
+    /*transform: scale(1);*/
 }
 
 
@@ -423,6 +428,41 @@ span{
 
 /*END OF SERVICE SECTION*/
 
+
+/*PARTS*/
+.product, .location{
+    margin-bottom: 10%;
+    margin-top: 14%;
+}
+.team{
+    margin-bottom: 15%;
+    margin-top: 14%;
+}
+/*END OF PARTS*/
+
+/*TESTIMONIALS*/
+
+.testimonials{
+    background-color: #F9F9F9;
+    text-align: center;
+}
+h3{
+    padding-top: 10%;
+}
+
+.nyt{
+    padding-top: 14%;
+}
+
+.lat{
+    padding-top: 8%;
+}
+
+.cnb{
+    padding-top: 5%;
+}
+
+/*END OF TESTIMONIALS*/
 
 /****************************MEDIA QUERIES************************************/
 

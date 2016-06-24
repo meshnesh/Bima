@@ -10,7 +10,13 @@
 body{
     font-family: 'Fjalla One', sans-serif;
     font-size: 16px;
-    padding-top: 80px;
+}
+
+.up{
+    padding-top: 4.5%;
+}
+.name{
+    font-size: xx-large;
 }
 .nav-center,
 .center{
@@ -30,56 +36,164 @@ ul{
 }
 
 /****************************NAV BAR************************************/
+.toggleBox {
+    /*position: fixed;*/
+    top: 0;
+    z-index: 100;
+    padding: 15px;
+    cursor: pointer;
+}
+.toggleBox--right {
+    right: 0;
+}
+.toggleBox--left {
+    left: 0;
+}
 
-.nav{
-    background: #ffffff;
-    min-height: 50px;
+.mainNavigationToggle {
+    z-index: 1000;
+    position: relative;
+    width: 36px;
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    outline: 0;
+}
+.mainNavigationToggle:before, .mainNavigationToggle:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #555;
+    bottom: 6.66667px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.mainNavigationToggle[class*="is-"] {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.mainNavigationToggle[class*="is-"]:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.mainNavigationToggle[class*="is-"]:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mainNavigationToggle.is-active {
+    border-color: transparent;
+}
+.mainNavigationToggle span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.mainNavigation {
     position: fixed;
-    width: 100%;
+    width: 280px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+    background-color: white;
+}
+.mainNavigation li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+.mainNavigation li a:hover {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.mainNavigation.is-active {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+    z-index: 50;
+}
+.mainNavigation--left {
+    top: 0;
+    left: -280px;
+    padding: 54px 4px 0 4px;
+}
+.mainNavigation--left.is-active {
+    left: 0;
+}
+.mainNavigation--right {
+    top: 0;
+    right: -280px;
+    padding: 54px 4px 0 4px;
+}
+.mainNavigation--right.is-active {
+    right: 0;
+}
+.mainNavigation--top {
+    top: -280px;
+    left: 0;
+    width: auto;
+    padding-top: 54px;
+    text-align: center;
+}
+.mainNavigation--top.is-active {
     top: 0;
 }
-.nav .left{
-    float: left;
-    margin-left: 0;
+.mainNavigation--bottom {
+    bottom: -280px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 54px;
+    text-align: center;
 }
-.nav .left li{
-    font-size: 14px;
-    float: left;
-}
-.nav .left li a{
-    font-size: xx-large;
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .left li a:hover{
-    background: #f2f2f2;
+.mainNavigation--bottom.is-active {
+    bottom: 0;
 }
 
-.nav .right{
+
+nav{
     float: right;
-    margin-right: 0;
-}
-.nav .right li{
-    font-size: 14px;
-    float: left;
-}
-.nav .right li a{
-    display: block;
-    padding: 9px 15px;
-    line-height: 30px;
-}
-.nav .right li a:hover{
-    background: #f2f2f2;
 }
 
-.toggle-nav{
-    display: none;
+.dad{
+    list-style: none;
+}
+.name{
+    font-size: 36px;
+    padding-left: 5%;
 }
 
-.nav-mobile style{
-    display: block;
-}
 
 /*********NAV BAR END**********/
 
@@ -100,6 +214,7 @@ span{
 
 
 .button.large {
+    margin-bottom: 3%;
     margin-left: 39%;
     background: #e59558;
     margin-top: 3%;
@@ -164,10 +279,8 @@ span{
 .arrows {
     width: 60px;
     height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 45px;
+    position: relative;
+    left: 35%;
 }
 
 .arrows path {
@@ -188,65 +301,12 @@ span{
 
 
 /****************************MEDIA QUERIES************************************/
-@media only screen and (max-width: 640px){
-    .nav{
-        border-bottom: 1px solid rgba(0,0,0,0.1);
-    }
-    .nav-center{
-        width: 100%;
-    }
-    .toggle-nav{
-        display: block;
-        padding: 10px;
-        position: absolute;
-        right: 10px;
-        line-height: 30px;
-    }
-    .toggle-nav:after{
-        content: ' Menu';
-    }
-
-    .nav-mobile{
-        display: none;
-    }
-
-    .style-mobile{
-        background: #ffffff;
-        top : 51px;
-        position : absolute;
-        width : 100%;
-    }
-
-    .style-mobile li{
-        display: block;
-        width: 100%;
-    }
-
-    .nav .right{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-
-    .nav .left{
-        display: block;
-        float: none;
-        margin: 0em;
-    }
-}
-
-@media only screen and (min-width: 641px){
-    .nav-mobile {
-        display:block !important;
-    }
-}
-
-
 
 @media only screen and (max-width: 320px){
     .button.large{
         width: 55%;
         margin-left: 25%;
+        margin-bottom: 5%;
     }
     .small-11 {
         margin-top: 20%;
@@ -259,10 +319,17 @@ span{
         width: 60px;
         height: 72px;
         position: absolute;
-        left: 50%;
-        margin-left: -30px;
-        bottom: 100px;
+        left: 45%;
     }
+
+    .columns{
+        width: 50%;
+    }
+
+    .up{
+        padding-top: 10%;
+    }
+
 }
 
 /*********MEDIA QUERY END**********/

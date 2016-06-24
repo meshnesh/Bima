@@ -1,16 +1,15 @@
-// ********************************************************
-// NAV BAR
-//
-$(function(){
+$(function() {
+    var $toggle = $('#toggleBox'),
+        $toggleButton = $('#mainNavigationToggle'),
+        $mainNavigation = $('#mainNavigation'),
+        $mainNavigationLink = $('#mainNavigation').find('a');
 
-    // Returns width of browser viewport
-    var browser = $(window).width();
-    // Returns width of HTML document
-    var document = $(document).width();
-
-    $('.nav .toggle-nav').click(function(e){
-        $('.nav .nav-mobile').addClass('style-mobile').slideToggle('slow');
-        e.preventDefault();
+    $toggle.on('click', function() {
+        $toggleButton.toggleClass('is-active');
+        $mainNavigation.toggleClass('is-active');
     });
-
+    $mainNavigationLink.on('click', function() {
+        $toggleButton.removeClass('is-active');
+        $mainNavigation.removeClass('is-active');
+    });
 });

@@ -498,7 +498,8 @@ button {
 
 .small-push-2 {
   position: relative;
-  left: 16.66667%; }
+  /*left: 16.66667%; */
+}
 
 .small-pull-2 {
   position: relative;
@@ -614,7 +615,8 @@ button {
 
 .small-pull-10 {
   position: relative;
-  left: -83.33333%; }
+  /*left: -83.33333%; */
+}
 
 .small-offset-9 {
   margin-left: 75%; }

@@ -426,6 +426,14 @@ span{
     transition: all .5s ease-in-out;
 }
 
+.user{
+    padding-left: 35%;
+
+}
+.visa{
+    padding-left: 20%;
+}
+
 /*END OF SERVICE SECTION*/
 
 
@@ -526,6 +534,12 @@ h3{
 .small-2{
     text-align: center;
     padding-top: 5%;
+}
+.user{
+    padding-left: 40%;
+}
+.visa{
+    padding-left: 35%;
 }
 }
 

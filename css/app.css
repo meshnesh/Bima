@@ -315,6 +315,8 @@ span{
 
 /*ABOUT SECTION*/
 .about{
+    margin-bottom: 3%;
+    margin-top: 5%;
     text-align: center;
     width: 100%;
 }
@@ -521,6 +523,7 @@ h3{
         width: 100%;
     }
     .about{
+        margin-bottom: 10%;
         margin-top: 25%;
     }
 

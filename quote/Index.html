@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Get Quote</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/easyResponsiveTabs.js"></script>
+
+
+    <style type="text/css" rel="stylesheet">
+        #container {
+        width: 940px;
+        margin: 0 auto;
+        }
+        @media only screen and (max-width: 768px) {
+        #container {
+        width: 90%;
+        margin: 0 auto;
+        }
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+
+        <h1 style="font-size:32px">Motor Insurance</h1>
+        <hr>
+        <br/>
+        <!--Horizontal Tab-->
+        <div id="parentHorizontalTab">
+            <ul class="resp-tabs-list hor_1">
+                <li class="hvr"><i class="fa fa-file" ></i> Your Car Details</li>
+                <li class="hvr"><i class="fa fa-user" aria-hidden="true"></i> About You</li>
+                <li><i class="fa fa-files-o" aria-hidden="true"></i> Your Quotes</li>
+            </ul>
+
+
+            <div class="resp-tabs-container hor_1 row">
+
+                <!--first section tab-->
+
+                <div class="row">
+                        <div class="large-6 columns">
+                            <img class="private" src="http://www.pesabazaar.com/assets/images/formImages/carPrivate.png">
+                        </div>
+                        <div class="large-6 columns car">
+                            <img src="http://www.pesabazaar.com/assets/images/formImages/carCommercial.png">
+                        </div>
+
+
+                    <div class="row name">
+                        <div class="large-6 columns">
+                            <p>What is the current value of your car (KShs)?<span>*</span>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <input type="text" id="value" placeholder="Enter Value">
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of name-->
+
+                    <div class="row Use">
+                        <div class="large-6 columns">
+                            <p>Vehicle use
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <label>
+                                            <select>
+                                                <option value="husker">Private</option>
+                                                <option value="starbuck">Commercial</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of use-->
+
+                    <div class="row drive">
+                        <div class="large-6 columns">
+                            <p>What car do you drive ?</p>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <label>
+                                            <select>
+                                                <option value="Audi">Audi</option>
+                                                <option value="Bentley">Bentley</option>
+                                                <option value="BMW">BMW</option>
+                                                <option value="husker">Cadillac</option>
+                                                <option value="Cadillac">Chevrolet</option>
+                                                <option value="Chrysler">Chrysler</option>
+                                                <option value="Datsun">Datsun</option>
+                                                <option value="Ford">Ford</option>
+                                                <option value="Honda">Honda</option>
+                                                <option value="Hyundai">Hyundai</option>
+                                                <option value="Jaguar">Jaguar</option>
+                                                <option value="Jeep">Jeep</option>
+                                                <option value="Rover">Land Rover</option>
+                                                <option value="Lexus">Lexus</option>
+                                                <option value="Mazda">Mazda</option>
+                                                <option value="Nissan">Nissan</option>
+                                                <option value="Subaru">Subaru</option>
+                                                <option value="Suzuki">Suzuki</option>
+                                                <option value="Toyota">Toyota</option>
+                                                <option value="Volvo">Volvo</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of drive-->
+
+
+                    <div class="row year">
+                        <div class="large-6 columns">
+                            <p>Vehicle year of manufacture ?</p>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <label>
+                                            <select>
+                                                <option value="2000">2000</option>
+                                                <option value="2001">2001</option>
+                                                <option value="2002">2002</option>
+                                                <option value="2003">2003</option>
+                                                <option value="2004">2004</option>
+                                                <option value="2005">2005</option>
+                                                <option value="2006">2006</option>
+                                                <option value="2007">2007</option>
+                                                <option value="2008">2008</option>
+                                                <option value="2009">2009</option>
+                                                <option value="2010">2010</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2016">2016</option>
+                                            </select>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end of year-->
+
+
+
+                    <div class="row date">
+                        <div class="large-6 columns">
+                            <p>When do you want your cover to start?
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="row">
+                                    <div class="small-9 columns">
+                                        <input type="text" id="datepicker">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end of date-->
+
+
+
+                    <div class="small-3 small-centered columns">
+                        <a class="button" href="#two">Next</a>
+                    </div>
+
+                </div>
+
+                <!--end of first-->
+
+                <!--second tab-->
+
+                <div class="row">
+
+                    <div class="row fname">
+                        <div class="large-6 columns">
+                            <p>First Name<span> *</span>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                    <div class="small-9 columns">
+                                        <input type="text" id="fname" placeholder="">
+                                    </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of fname-->
+
+
+                    <div class="row sname">
+                        <div class="large-6 columns">
+                            <p>Last Name<span> *</span>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="small-9 columns">
+                                    <input type="text" id="sname" placeholder="">
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of sname-->
+
+
+                    <div class="row number">
+                        <div class="large-6 columns">
+                            <p>Mobile Number<span> *</span>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="small-9 columns">
+                                    <input type="text" id="number" placeholder="07..">
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of number-->
+
+
+                    <div class="row email">
+                        <div class="large-6 columns">
+                            <p>Email Address<span> *</span>
+                        </div>
+                        <div class="large-6 columns">
+
+                            <form>
+                                <div class="small-9 columns">
+                                    <input type="text" id="email" placeholder="">
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                    <!--end of email-->
+
+
+                    <fieldset class="large-6 columns">
+                        <input id="checkbox1" type="checkbox"><label for="checkbox1">I accept the Terms and conditions of john.io</label>
+
+                    </fieldset>
+                    <!--end of terms-->
+
+
+                    <div class="small-3 small-centered columns">
+                        <a class="button" href="#">View Quotes</a>
+                    </div>
+
+
+                </div>
+
+                <!--end of second tab-->
+
+                <!--third tab-->
+
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque commodo. Nam porta cursus lectus. Proin nunc erat, gravida a facilisis quis, ornare id lectus. Proin consectetur nibh quis urna gravida mollis.
+                </div>
+
+                <!--end of third tab-->
+
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+</div>
+
+	<!--Plug-in Initialisation-->
+	<script type="text/javascript">
+    $(document).ready(function() {
+        //Horizontal Tab
+        $('#parentHorizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        // Child Tab
+        $('#ChildVerticalTab_1').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true,
+            tabidentify: 'ver_1', // The tab groups identifier
+            activetab_bg: '#fff', // background color for active tabs in this group
+            inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+            active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+            active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+        });
+
+        //Vertical Tab
+        $('#parentVerticalTab').easyResponsiveTabs({
+            type: 'vertical', //Types: default, vertical, accordion
+            width: 'auto', //auto or any width like 600px
+            fit: true, // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            tabidentify: 'hor_1', // The tab groups identifier
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#nested-tabInfo2');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+    });
+</script>
+        <!--<script src="js/vendor/jquery.js"></script>-->
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+</body>
+</html>

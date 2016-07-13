@@ -28,11 +28,13 @@
 <body>
 
 
-    <script type="text/javascript">
-        document.getElementById("myButton").onclick = function () {
-            location.href = "user/index.html";
-        };
-    </script>
+    <!--
+   <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "user/index.html";
+    };
+</script>
+-->
 
 
 
@@ -40,7 +42,7 @@
 
         <!--------NAVIGATION SECTION ------->
         <div class="row up">
-            <div class="large-6 columns name">
+            <div class="large-6 columns maina">
                 John
             </div>
             <div class="large-6 columns slide">
@@ -129,11 +131,12 @@
                                 <div class="sminputs">
                                     <div class="input string optional passwrd">
                                         <label class="string optional" for="user-password">Password *</label>
-                                        <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" name="password" />
+                                        <input class="string optional" maxlength="255" id="password" placeholder="Password" type="password" size="50" name="password" />
                                     </div>
                                     <div class="input string optional rptpasswrd">
                                         <label class="string optional" for="user-password-repeat">Repeat password *</label>
-                                        <input class="string optional" maxlength="255" id="user-password-repeat" placeholder="Repeat password" type="password" size="50" name="password2" onkeyup="checkPasswordMatch();" />
+                                        <input class="string optional" maxlength="255" id="pass2" placeholder="Repeat password" type="password" size="50" name="password" onkeyup="checkPass(); return false;" />
+                                        <span id="confirmMessage" class="confirmMessage"></span>
                                     </div>
                                 </div>
 

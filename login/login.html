@@ -35,6 +35,7 @@
     </script>
 
 
+
     <div class="logmod">
 
         <!--------NAVIGATION SECTION ------->
@@ -58,7 +59,7 @@
                         <li><a href="#">News</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Access</a></li>
-<!--
+                        <!--
                        <li><a href="#">Home</a></li>
 <li><a href="#">News</a></li>
 <li><a href="#">Contact</a></li>
@@ -79,108 +80,38 @@
             <div class="logmod__container">
                 <ul class="logmod__tabs">
                     <li data-tabtar="lgm-2"><a href="#">Login</a></li>
-                    <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>
+                    <!--                    <li data-tabtar="lgm-1"><a href="#">Sign Up</a></li>-->
                 </ul>
                 <div class="logmod__tab-wrapper">
-                    <div class="logmod__tab lgm-1">
-                        <div class="logmod__heading">
-                            <span class="logmod__heading-subtitle">Enter your personal details <strong>to create an acount</strong></span>
+
+                    <div class="logmod__tab lgm-2 ">
+                        <div class="logmod__heading ">
+                            <span class="logmod__heading-subtitle">Dont have an account <strong><a href="signup.html">Sign Up</a></strong></span>
+                            <span class="logmod__heading-subtitle ">Enter your email and password <strong>to sign in</strong></span>
                         </div>
-                        <div class="logmod__form">
+                        <div class="logmod__form ">
 
-                            <form accept-charset="utf-8" id="form" class="simform" method="post" action="/book">
-                                <div class="sminputs">
-
-
-                                    <!-- name -->
-                                    <div class="row name">
-                                        <div class="medium-6 columns fname">
-                                            <label class="string optional" for="first-name">First Name *</label>
-                                            <input type="text" placeholder="First name" name="fname">
-                                            </label>
-                                        </div>
-                                        <div class="medium-6 columns lname">
-                                            <label class="string optional" for="last-name">Last Name *</label>
-                                            <input type="text" placeholder="Last name" name="lname">
-                                            </label>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- email -->
-                                    <div class="row">
-                                        <div class="medium-6 columns email">
-                                            <label class="string optional" for="user-email">Email *</label>
-                                            <input type="email" placeholder="Email" name="email">
-                                            </label>
-                                        </div>
-                                        <div class="medium-6 columns pno">
-                                            <label class="string optional" for="Phone-number">Phone Number *</label>
-                                            <input type="number" maxlength="255" placeholder="Phone Number" name="phone">
-                                            </label>
-                                        </div>
+                            <form accept-charset="utf-8 " action="# " class="simform ">
+                                <div class="sminputs ">
+                                    <div class="input full ">
+                                        <label class="string optional " for="user-name ">Email*</label>
+                                        <input type="email " placeholder="email " name="email ">
                                     </div>
                                 </div>
-
-
-
-                                <div class="sminputs">
-                                    <div class="input string optional passwrd">
-                                        <label class="string optional" for="user-password">Password *</label>
-                                        <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" name="password" />
-                                    </div>
-                                    <div class="input string optional rptpasswrd">
-                                        <label class="string optional" for="user-password-repeat">Repeat password *</label>
-                                        <input class="string optional" maxlength="255" id="user-password-repeat" placeholder="Repeat password" type="password" size="50" name="password" />
+                                <div class="sminputs ">
+                                    <div class="input full ">
+                                        <label class="string optional " for="user-pw ">Password *</label>
+                                        <input placeholder="Password " type="password " name="password " />
+                                        <span class="hide-password ">Show</span>
                                     </div>
                                 </div>
-
-
-                                <!-- button -->
-                                <div class="simform__actions">
+                                <div class="simform__actions ">
                                     <button>
-                                        <input class="sumbit" type="submit" value="Create Account" />
-                                    </button>
-                                    <span class="simform__actions-sidetext">By creating an account you agree to our <a class="special" href="#" target="_blank" role="link">Terms & Privacy</a></span>
-
-
-                                </div>
-                            </form>
-
-                        </div>
-
-
-
-
-                    </div>
-
-                    <div class="logmod__tab lgm-2">
-                        <div class="logmod__heading">
-                            <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
-                        </div>
-                        <div class="logmod__form">
-
-                            <form accept-charset="utf-8" action="#" class="simform">
-                                <div class="sminputs">
-                                    <div class="input full">
-                                        <label class="string optional" for="user-name">Email*</label>
-                                        <input type="email" placeholder="email" name="email">
-                                    </div>
-                                </div>
-                                <div class="sminputs">
-                                    <div class="input full">
-                                        <label class="string optional" for="user-pw">Password *</label>
-                                        <input placeholder="Password" type="password" name="password" />
-                                        <span class="hide-password">Show</span>
-                                    </div>
-                                </div>
-                                <div class="simform__actions">
-                                    <button>
-                                        <input class="sumbit" type="commit" type="button" value="Log In" />
+                                        <input class="sumbit " type="commit " type="button " value="Log In " />
                                     </button>
 
 
-                                    <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?<br>Click here</a></span>
+                                    <span class="simform__actions-sidetext "><a class="special " role="link " href="# ">Forgot your password?<br>Click here</a></span>
                                 </div>
                             </form>
 
@@ -198,12 +129,12 @@
 
 
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/login.js"></script>
-    <script src="../js/vendor/jquery.js"></script>
-    <script src="../js/vendor/what-input.js"></script>
-    <script src="../js/vendor/foundation.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/login.js "></script>
+    <script src="../js/vendor/jquery.js "></script>
+    <script src="../js/vendor/what-input.js "></script>
+    <script src="../js/vendor/foundation.js "></script>
+    <script src="js/nav.js "></script>
+    <script src="js/app.js "></script>
 
 
 

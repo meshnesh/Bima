@@ -1,0 +1,182 @@
+/****************************NAV BAR************************************/
+
+.toggleBox {
+    /*position: fixed;*/
+    top: 0;
+    z-index: 100;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.toggleBox--right {
+    right: 0;
+}
+
+.toggleBox--left {
+    left: 0;
+}
+
+.mainNavigationToggle {
+    z-index: 1000;
+    position: relative;
+    width: 36px;
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+    outline: 0;
+}
+
+.mainNavigationToggle:before,
+.mainNavigationToggle:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid #555;
+    bottom: 6.66667px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.mainNavigationToggle[class*="is-"] {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.mainNavigationToggle[class*="is-"]:before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.mainNavigationToggle[class*="is-"]:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.mainNavigationToggle.is-active {
+    border-color: transparent;
+}
+
+.mainNavigationToggle span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.mainNavigation {
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+    background-color: white;
+}
+
+.mainNavigation li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+}
+
+.mainNavigation li a:hover {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.mainNavigation.is-active {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+    z-index: 50;
+}
+
+.mainNavigation--left {
+    top: 0;
+    left: -280px;
+    padding: 54px 4px 0 4px;
+}
+
+.mainNavigation--left.is-active {
+    left: 0;
+}
+
+.mainNavigation--right {
+    top: 0;
+    right: -280px;
+    padding: 54px 4px 0 4px;
+}
+
+.mainNavigation--right.is-active {
+    right: 0;
+}
+
+.mainNavigation--top {
+    top: -280px;
+    left: 0;
+    width: auto;
+    padding-top: 54px;
+    text-align: center;
+}
+
+.mainNavigation--top.is-active {
+    top: 0;
+}
+
+.mainNavigation--bottom {
+    bottom: -280px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 54px;
+    text-align: center;
+}
+
+.mainNavigation--bottom.is-active {
+    bottom: 0;
+}
+
+nav {
+    float: right;
+}
+
+.dad {
+    list-style: none;
+}
+
+.name {
+    font-size: 36px;
+    padding-left: 5%;
+}
+
+
+/*********NAV BAR END**********/

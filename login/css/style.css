@@ -33,7 +33,7 @@ html {
     max-width: 550px;
     border-radius: 4px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
-    margin: 120px auto;
+    margin: 80px auto;
 }
 
 
@@ -261,7 +261,7 @@ html {
     height: 48px;
     float: right;
     color: #FFF;
-    width: 50%;
+    width: 70%;
     font-weight: 700;
     font-size: 16px;
     background: #4CAF50;

@@ -40,15 +40,74 @@ function checkPass() {
 
 
 
+
+
 $('form').on('submit', function (event) {
     event.preventDefault();
     var form = $(this);
-    $.ajax('http://symatechlabs.com/bima/api/userLogin.php', {
-        type: 'POST'
-        , data: form.serialize()
-        , dataType: 'json'
-        , success: function (result) {
-            console.log(result)
-        }
+    $("#btnGetResponse").click(function () {
+        $.ajax({
+            type: "POST"
+            , url: 'http://symatechlabs.com/bima/api/userLogin.php'
+            , data: form.serialize()
+            , dataType: "json"
+            , success: function (d) {
+                console.log(d)
+                if (d.userLogin[0].result == "SUCCESS") {
+
+                    window.location.href = 'https://www.google.com/';
+
+                } else {
+                    alert('Wrong credentials');
+                }
+            }
+        });
     });
 });
+
+
+
+
+
+
+//$('form').on('submit', function (event) {
+//    event.preventDefault();
+//    var form = $(this);
+//    $("#btnGetResponse").click(function () {
+//        $.ajax({
+//            type: "POST"
+//            , url: 'http://symatechlabs.com/bima/api/userLogin.php'
+//            , data: form.serialize()
+//            , dataType: "json"
+//            , success: function (d) {
+//                if (d.r == "fail") {
+//                    alert('wrong password and email');
+//                } else {
+//                    // alert('would you like to be redirected?');
+//                    window.location.href = 'login/user/index.html';
+//
+//                }
+//            }
+//        });
+//    });
+//});
+
+
+
+
+
+
+
+
+//$('form').on('submit', function (event) {
+//    event.preventDefault();
+//    var form = $(this);
+//    $.ajax('http://symatechlabs.com/bima/api/userLogin.php', {
+//        type: 'POST'
+//        , data: form.serialize()
+//        , dataType: 'json'
+//        , success: function (result) {
+//            console.log(result)
+//        }
+//    });
+//});

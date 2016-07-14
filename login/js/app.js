@@ -51,12 +51,20 @@ $('form').on('submit', function (event) {
             , url: 'http://symatechlabs.com/bima/api/userLogin.php'
             , data: form.serialize()
             , dataType: "json"
-            , success: function (d) {
+            , beforeSend: function () {
+                $('#spinner').show();
+            }
+            , complete: function () {
+                $('#spinner').hide();
+            },
+
+
+            success: function (d) {
                 console.log(d)
                 if (d.userLogin[0].result == "SUCCESS") {
 
                     window.location.href = 'https://www.google.com/';
-
+                    // setTimeout(document.getElementById("spinner").style.display="none", 5000); 
                 } else {
                     alert('Wrong credentials');
                 }

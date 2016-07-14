@@ -9,6 +9,11 @@
     padding-top: 35%;
 }
 
+#spinner p {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
 .spinner {
     height: 60px;
     width: 60px;

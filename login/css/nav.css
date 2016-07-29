@@ -189,4 +189,8 @@ nav {
     padding-right: 10%;
 }
 
+.fa:hover{
+    color: #e59558;
+}
+
 /*********NAV BAR END**********/

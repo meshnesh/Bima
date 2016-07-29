@@ -4,18 +4,6 @@
     <list default="true" id="84523439-3b8a-401f-b90b-b209479ba4a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/Hover" afterPath="$PROJECT_DIR$/profile page/Hover" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/Hover" afterPath="$PROJECT_DIR$/quote/Hover" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/css/nav.css" afterPath="$PROJECT_DIR$/login/css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/js/app.js" afterPath="$PROJECT_DIR$/login/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login.html" afterPath="$PROJECT_DIR$/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/signup.html" afterPath="$PROJECT_DIR$/login/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/.idea/workspace.xml" afterPath="$PROJECT_DIR$/profile page/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/css/nav.css" afterPath="$PROJECT_DIR$/profile page/css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/index.html" afterPath="$PROJECT_DIR$/profile page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/css/nav.css" afterPath="$PROJECT_DIR$/quote/css/nav.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/index.html" afterPath="$PROJECT_DIR$/quote/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/js/app3.js" afterPath="$PROJECT_DIR$/quote/js/app3.js" />
     </list>
     <ignored path="Bima.iws" />
@@ -56,8 +44,8 @@
           <file leaf-file-name="app3.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/quote/js/app3.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -151,7 +139,14 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -255,16 +250,16 @@
       <workItem from="1469617270208" duration="305000" />
       <workItem from="1469619316759" duration="501000" />
       <workItem from="1469637886134" duration="1396000" />
-      <workItem from="1469701702687" duration="7695000" />
+      <workItem from="1469701702687" duration="8021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61902000" />
+    <option name="totallyTimeSpent" value="62228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15091342" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -647,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quote/js/app3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

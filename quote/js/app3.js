@@ -10,7 +10,7 @@ $('form').on('submit', function (event) {
             , success: function (d) {
                 if (d.submitQuote[0].result == "SUCCESS") {
                     console.log(d);
-                    window.location.href = '../profile%20page/index.html';
+                    // window.location.href = '../profile%20page/index.html';
                 } else {
                     // alert('Wrong credentials');
 

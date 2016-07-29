@@ -8,7 +8,15 @@ $('form').on('submit', function (event) {
             , data: form.serialize()
             , dataType: "json"
             , success: function (d) {
-                console.log(d)
+                if (d.submitQuote[0].result == "SUCCESS") {
+                    console.log(d);
+                    window.location.href = '../profile%20page/index.html';
+                } else {
+                    // alert('Wrong credentials');
+
+
+                    console.log('not a success');
+                }
             }
 
 

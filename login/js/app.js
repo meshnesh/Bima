@@ -20,12 +20,16 @@ function checkPass() {
             $.ajax('http://symatechlabs.com/bima/api/userRegistration.php', {
                 type: 'POST'
                 , data: form.serialize()
-                , dataType: 'json'
-                , success: function (result) {
+                , dataType: 'json', beforeSend: function () {
+                    $('.loader').show();
+                }
+                , complete: function () {
+                    $('.loader').hide();
+                }, success: function (result) {
                     console.log(result);
 
                     if (result == "SUCCESS") {
-                        window.location.href = '../quote/quote.html';
+                        window.location.href = '../profile%20page/index.html';
                     } else {
                         // alert('EMAIL ALREADY EXISTS');
                         email.style.backgroundColor = badColor;
@@ -76,7 +80,7 @@ function checkPass() {
 
                         if (d.userLogin[0].result == "SUCCESS") {
                             console.log(d);
-                            window.location.href = '../quote/index.html';
+                            window.location.href = '../profile%20page/index.html';
                         } else {
                             // alert('Wrong credentials');
 

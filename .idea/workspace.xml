@@ -2,53 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84523439-3b8a-401f-b90b-b209479ba4a5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/css/demo-page.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/css/hover-min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/css/hover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/css/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Login_Sign-In_files/what-input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/user.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/Profile_files/what-input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/carCommercial.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/carPrivate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/img/mid-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/js/easyResponsiveTabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/js/jquery-1.6.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/js/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quote/js/onclick.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/Hover" afterPath="$PROJECT_DIR$/profile page/Hover" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/Hover" afterPath="$PROJECT_DIR$/quote/Hover" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/foundation.css" afterPath="$PROJECT_DIR$/css/foundation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/css/load.css" afterPath="$PROJECT_DIR$/login/css/load.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/css/login.css" afterPath="$PROJECT_DIR$/login/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/css/style.css" afterPath="$PROJECT_DIR$/login/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/css/nav.css" afterPath="$PROJECT_DIR$/login/css/nav.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/js/app.js" afterPath="$PROJECT_DIR$/login/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/login.html" afterPath="$PROJECT_DIR$/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/signup.html" afterPath="$PROJECT_DIR$/login/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login/user/index.html" afterPath="$PROJECT_DIR$/login/user/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/css/app.css" afterPath="$PROJECT_DIR$/quote/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/css/foundation.css" afterPath="$PROJECT_DIR$/quote/css/foundation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/.idea/workspace.xml" afterPath="$PROJECT_DIR$/profile page/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/css/nav.css" afterPath="$PROJECT_DIR$/profile page/css/nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile page/index.html" afterPath="$PROJECT_DIR$/profile page/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/css/nav.css" afterPath="$PROJECT_DIR$/quote/css/nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/index.html" afterPath="$PROJECT_DIR$/quote/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quote/js/app3.js" afterPath="$PROJECT_DIR$/quote/js/app3.js" />
     </list>
     <ignored path="Bima.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,101 +39,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/login/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/login/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="646" column="23" selection-start-line="646" selection-start-column="23" selection-end-line="646" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/login/login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="101" column="62" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/login/css/login.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="foundation.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/quote/css/foundation.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-44817">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/quote/css/app.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/quote/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="foundation.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/foundation.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="1270" column="18" selection-start-line="1270" selection-start-column="18" selection-end-line="1270" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4023">
-                  <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+                <state relative-caret-position="327">
+                  <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -175,11 +53,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/login/login.html">
+          <file leaf-file-name="app3.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/quote/js/app3.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -202,17 +80,22 @@
         <option value="$PROJECT_DIR$/quote/quote.html" />
         <option value="$PROJECT_DIR$/quote/css/acordbut.css" />
         <option value="$PROJECT_DIR$/quote/js/sendquote.js" />
-        <option value="$PROJECT_DIR$/login/signup.html" />
         <option value="$PROJECT_DIR$/login/css/load.css" />
-        <option value="$PROJECT_DIR$/login/js/app.js" />
-        <option value="$PROJECT_DIR$/login/login.html" />
         <option value="$PROJECT_DIR$/login/css/style.css" />
         <option value="$PROJECT_DIR$/login/css/login.css" />
         <option value="$PROJECT_DIR$/css/foundation.css" />
-        <option value="$PROJECT_DIR$/quote/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/quote/css/app.css" />
+        <option value="$PROJECT_DIR$/quote/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/profile page/css/nav.css" />
+        <option value="$PROJECT_DIR$/quote/css/nav.css" />
+        <option value="$PROJECT_DIR$/login/css/nav.css" />
+        <option value="$PROJECT_DIR$/login/js/app.js" />
+        <option value="$PROJECT_DIR$/login/signup.html" />
+        <option value="$PROJECT_DIR$/login/login.html" />
+        <option value="$PROJECT_DIR$/profile page/index.html" />
+        <option value="$PROJECT_DIR$/quote/js/app3.js" />
       </list>
     </option>
   </component>
@@ -268,56 +151,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -421,21 +255,21 @@
       <workItem from="1469617270208" duration="305000" />
       <workItem from="1469619316759" duration="501000" />
       <workItem from="1469637886134" duration="1396000" />
-      <workItem from="1469701702687" duration="4923000" />
+      <workItem from="1469701702687" duration="7695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59130000" />
+    <option name="totallyTimeSpent" value="61902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19142176" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15091342" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TagMyCode" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -467,35 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quote/js/sendquote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="343" selection-start-line="22" selection-start-column="343" selection-end-line="22" selection-end-column="343" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote/js/sendquote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
@@ -704,50 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login/css/nav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1917">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login/css/load.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="101" column="62" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -784,34 +549,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quote/index.html">
+    <entry file="file://$PROJECT_DIR$/quote/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="1260">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="189" column="1" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="189" column="1" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile page/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="188" column="1" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4023">
-          <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        <state relative-caret-position="642">
+          <caret line="221" column="1" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="585">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quote/css/app.css">
+    <entry file="file://$PROJECT_DIR$/login/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="1020">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote/js/app3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -179,4 +179,14 @@ nav {
 }
 
 
+.ineer{
+    list-style-type: none;
+    padding-top: 10%;
+
+}
+.ineer li{
+    display: inline;
+    padding-right: 10%;
+}
+
 /*********NAV BAR END**********/

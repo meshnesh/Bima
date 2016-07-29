@@ -29,13 +29,42 @@
 <body>
 
 
-    <div id="spinner">
-        <div class="spinner">
-        </div>
-        <p>Logging in...
-    </div>
+<div class="loader">
+    <div class="inner one"></div>
+    <div class="inner two"></div>
+    <div class="inner three"></div>
+</div>
 
     <div class="logmod">
+
+
+
+
+        <!--------NAVIGATION SECTION ------->
+        <div class="row up">
+            <div class="large-6 columns maina">
+                John
+            </div>
+            <div class="large-6 columns slide">
+                <nav>
+
+                    <div id="toggleBox" class="toggleBox toggleBox--right">
+                        <button id="mainNavigationToggle" class="mainNavigationToggle"><span>メインナビゲーション</span></button>
+                    </div>
+
+                    <ul id="mainNavigation" class="mainNavigation mainNavigation--right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../quote/index.html">Quote</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                        <li><a href="../profile%20page/index.html">Profile</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--END OF NAVIGATION-->
+
+
 
         <div class="logmod__wrapper">
             <!--<span class="logmod__close">Close</span>-->
@@ -57,7 +86,10 @@
                                 <div class="sminputs">
                                     <div class="input full">
                                         <label class="string optional" for="user-name">Email*</label>
-                                        <input type="email" placeholder="email" name="email">
+                                        <input type="email" placeholder="email" name="email" id="email2">
+
+
+
                                     </div>
                                 </div>
                                 <div class="sminputs">
@@ -69,13 +101,15 @@
                                 </div>
                                 <div class="simform__actions">
                                     <button>
-                                        <input class="sumbit" type="commit" type="button" id="btnGetResponse" type="button" value="Log In" onclick="" />
+                                        <input class="sumbit" type="button" id="btnGetResponse" value="Log In" onclick="" />
                                     </button>
 
 
-                                    <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?</a></span>
+                                    <!--<span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?</a></span>-->
+                                    <span id="confirmMessage3" class="confirmMessage3"></span>
                                 </div>
                             </form>
+
 
 
                         </div>
@@ -101,7 +135,7 @@
     <script src="../js/vendor/jquery.js "></script>
     <script src="../js/vendor/what-input.js "></script>
     <script src="../js/vendor/foundation.js "></script>
-    <!-- <script src="js/nav.js "></script> -->
+     <script src="js/nav.js "></script>
     <script src="js/app.js "></script>
 
 

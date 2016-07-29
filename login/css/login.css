@@ -32,6 +32,16 @@ button {
 }
 
 
+.confirmMessage2, .confirmMessage3{
+    font-size: large;
+    color: rgb(255, 102, 102);
+    font-weight: 900;
+}
+
+a{
+    color: #e59558;
+}
+
 /****************************MEDIA QUERIES************************************/
 
 @media only screen and (max-device-width: 320px) {

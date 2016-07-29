@@ -264,7 +264,7 @@ html {
     width: 70%;
     font-weight: 700;
     font-size: 16px;
-    background: #4CAF50;
+    background: #e59558;
     margin-top: 7px;
 }
 
@@ -402,6 +402,7 @@ html {
     box-shadow: none;
     min-width: 90px;
     padding: 10px 14px;
+    border-radius: 10px;
 }
 
 .btn.full,
@@ -625,7 +626,7 @@ html {
 
 .btn.teal,
 .simform__actions .teal.sumbit {
-    background: #009688;
+    background: #e59558;
     color: #FFF;
 }
 
@@ -643,7 +644,7 @@ html {
 
 .btn.green,
 .simform__actions .green.sumbit {
-    background: #4CAF50;
+    background: #e59558;
     color: #FFF;
 }
 
